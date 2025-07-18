@@ -67,6 +67,7 @@ class Task:
         while True:
             result = self.get_curr_gui_name()
             gui_name, info = ['UNKNOW', None] if result is None else result
+            print(f'back_to_home_gui: {gui_name}, info: {info}')
             if gui_name == GuiName.HOME.name:
                 break
             elif gui_name == GuiName.MAP.name:
@@ -279,16 +280,17 @@ class Task:
 
     # edit by seashell-freya, github: https://github.com/seashell-freya
     def isRoKRunning(self):
-        cmd = 'dumpsys window windows | grep mCurrentFocus'
-        str = self.device.shell(cmd)
-        return str.find('com.lilithgame.roc.gp/com.harry.engine.MainActivity') != -1
+        cmd = 'dumpsys window windows'
+        output = self.device.shell(cmd)
+        # Check if the game is currently focused
+        return 'mCurrentFocus=Window{' in output and 'com.ifun.google.kingdom/u3dsdk.kvmba.com.u3dsdk.MainSDKActivity' in output
 
     def runOfRoK(self):
-        cmd = 'am start -n com.lilithgame.roc.gp/com.harry.engine.MainActivity'
+        cmd = 'am start -n com.ifun.google.kingdom/u3dsdk.kvmba.com.u3dsdk.MainSDKActivity'
         str = self.device.shell(cmd)
 
     def stopRok(self):
-        cmd = 'am force-stop com.lilithgame.roc.gp'
+        cmd = 'am force-stop com.ifun.google.kingdom'
         str = self.device.shell(cmd)
 
     def set_text(self, **kwargs):

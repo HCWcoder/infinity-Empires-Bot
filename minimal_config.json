@@ -1,0 +1,369 @@
+{
+  "game_settings": {
+    "package_name": "com.ifun.google.kingdom",
+    "detection_threshold": 0.8
+  },
+  "detection_images": {},
+  "ui_elements": {
+    "BuildingsPanel": {
+      "image_path": "resource/BuildingsPanel.png",
+      "search_area": [
+        23,
+        263,
+        97,
+        312
+      ],
+      "threshold": 0.8
+    },
+    "TroopsPanel": {
+      "image_path": "resource/TroopsPanel.png",
+      "search_area": [
+        26,
+        336,
+        80,
+        378
+      ],
+      "threshold": 0.8
+    },
+    "MarchPanel": {
+      "image_path": "resource/MarchPanel.png",
+      "search_area": [
+        24,
+        416,
+        72,
+        455
+      ],
+      "threshold": 0.8
+    },
+    "Castle": {
+      "image_path": "resource/Castle.png",
+      "search_area": [
+        900,
+        82,
+        1034,
+        168
+      ],
+      "threshold": 0.8
+    },
+    "ResearchArea": {
+      "image_path": "resource\\ResearchArea.png",
+      "search_area": [
+        526,
+        15,
+        725,
+        147
+      ]
+    },
+    "AllianceHelp": {
+      "image_path": "resource\\AllianceHelp.png",
+      "search_area": [
+        1733,
+        589,
+        1908,
+        942
+      ]
+    },
+    "GoldPickup": {
+      "image_path": "resource\\GoldPickup.png",
+      "search_area": [
+        1582,
+        343,
+        1912,
+        658
+      ]
+    },
+    "DwelingArea": {
+      "image_path": "resource\\DwelingArea.png",
+      "search_area": [
+        1647,
+        395,
+        1920,
+        654
+      ]
+    },
+    "WareHouse": {
+      "image_path": "resource\\WareHouse.png",
+      "search_area": [
+        1286,
+        681,
+        1662,
+        954
+      ]
+    },
+    "ShipmentCollect": {
+      "image_path": "resource\\ShipmentCollect.png",
+      "search_area": [
+        1399,
+        543,
+        1589,
+        737
+      ]
+    },
+    "ShipmentClaim": {
+      "image_path": "resource\\ShipmentClaim.png",
+      "search_area": [
+        1309,
+        792,
+        1647,
+        960
+      ]
+    },
+    "ShipmentContinue": {
+      "image_path": "resource\\ShipmentContinue.png",
+      "search_area": [
+        704,
+        623,
+        1155,
+        775
+      ]
+    },
+    "BackButton": {
+      "image_path": "resource\\BackButton.png",
+      "search_area": [
+        0,
+        0,
+        201,
+        119
+      ]
+    },
+    "DragonPanel": {
+      "image_path": "resource\\DragonPanel.png",
+      "search_area": [
+        1724,
+        17,
+        1908,
+        169
+      ]
+    },
+    "home_button": {
+      "image_path": "resource\\home_button.png",
+      "search_area": [
+        0,
+        873,
+        197,
+        1077
+      ]
+    },
+    "upgradeBuildingButton": {
+      "image_path": "resource\\upgradeBuildingButton.png",
+      "search_area": [
+        1562,
+        134,
+        1841,
+        1015
+      ]
+    },
+    "map_button": {
+      "image_path": "resource\\map_button.png",
+      "search_area": [
+        0,
+        885,
+        194,
+        1080
+      ]
+    },
+    "coordX": {
+      "image_path": "resource\\coordX.png",
+      "search_area": [
+        720,
+        19,
+        915,
+        67
+      ]
+    },
+    "coordY": {
+      "image_path": "resource\\coordY.png",
+      "search_area": [
+        906,
+        15,
+        1057,
+        76
+      ]
+    },
+    "Locator": {
+      "image_path": "resource\\Locator.png",
+      "search_area": [
+        1011,
+        15,
+        1111,
+        69
+      ]
+    },
+    "Ruin": {
+      "image_path": "resource\\Ruin.png",
+      "search_area": [
+        808,
+        176,
+        1123,
+        512
+      ]
+    },
+    "foundRuin": {
+      "image_path": "resource\\foundRuin.png",
+      "search_area": [
+        808,
+        339,
+        1113,
+        654
+      ]
+    },
+    "explore": {
+      "image_path": "resource\\explore.png",
+      "search_area": [
+        1397,
+        710,
+        1672,
+        846
+      ]
+    },
+    "foundRuin1": {
+      "image_path": "resource\\foundRuin1.png",
+      "search_area": [
+        764,
+        307,
+        1175,
+        727
+      ]
+    },
+    "foundRuin2": {
+      "image_path": "resource\\foundRuin2.png",
+      "search_area": [
+        744,
+        307,
+        1192,
+        718
+      ]
+    },
+    "foundRuin3": {
+      "image_path": "resource\\foundRuin3.png",
+      "search_area": [
+        814,
+        339,
+        1163,
+        714
+      ]
+    },
+    "March1": {
+      "image_path": "resource\\March1.png",
+      "search_area": [
+        1754,
+        641,
+        1902,
+        821
+      ]
+    },
+    "March2": {
+      "image_path": "resource\\March2.png",
+      "search_area": [
+        1764,
+        673,
+        1906,
+        823
+      ]
+    },
+    "foundRuin4": {
+      "image_path": "resource\\foundRuin4.png",
+      "search_area": [
+        802,
+        216,
+        1123,
+        543
+      ]
+    },
+    "foundRuin5": {
+      "image_path": "resource\\foundRuin5.png",
+      "search_area": [
+        844,
+        228,
+        1092,
+        516
+      ]
+    },
+    "foundRuin6": {
+      "image_path": "resource\\foundRuin6.png",
+      "search_area": [
+        806,
+        239,
+        1104,
+        539
+      ]
+    },
+    "exploreNew": {
+      "image_path": "resource\\exploreNew.png",
+      "search_area": [
+        1367,
+        543,
+        1720,
+        777
+      ]
+    },
+    "2marches": {
+      "image_path": "resource\\2marches.png",
+      "search_area": [
+        1751,
+        528,
+        1908,
+        879
+      ]
+    },
+    "MarchNb1": {
+      "image_path": "resource\\MarchNb1.png",
+      "search_area": [
+        1772,
+        677,
+        1898,
+        800
+      ]
+    },
+    "MarchNb2": {
+      "image_path": "resource\\MarchNb2.png",
+      "search_area": [
+        1772,
+        537,
+        1900,
+        664
+      ]
+    },
+    "1231d12d": {
+      "image_path": "resource\\1231d12d.png",
+      "search_area": [
+        693,
+        178,
+        1244,
+        576
+      ]
+    },
+    "asd": {
+      "image_path": "resource\\asd.png",
+      "search_area": [
+        871,
+        458,
+        1057,
+        627
+      ]
+    },
+    "dsadasd": {
+      "image_path": "resource\\dsadasd.png",
+      "search_area": [
+        1770,
+        766,
+        1896,
+        800
+      ]
+    },
+    "asd12d12": {
+      "image_path": "resource\\asd12d12.png",
+      "search_area": [
+        1774,
+        645,
+        1895,
+        679
+      ]
+    }
+  },
+  "bot_settings": {
+    "loop_delay": 30,
+    "screenshot_on_error": true,
+    "debug_mode": false
+  }
+}
